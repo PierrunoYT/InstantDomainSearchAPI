@@ -1,7 +1,9 @@
 # InstantDomainSearch API
 
-A REST/JSON API for domain availability that speaks the same web protocol as
-instantdomainsearch.com (`/services/*`). **Unofficial**: the endpoints can change,
+An HTTP/JSON API for domain availability that speaks the same web protocol as
+instantdomainsearch.com (`/services/*`). There is no UI: run the service, then call
+the endpoints below (or open `/docs` for the generated Swagger UI).
+**Unofficial**: the endpoints can change,
 rate-limit, or block non-browser clients, and using them may be against the site's
 terms. Check before relying on it.
 
